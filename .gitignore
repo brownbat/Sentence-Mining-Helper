@@ -1,3 +1,10 @@
+# Temporary files
+*.tmp
+*.temp
+/tmp
+/temp
+.goutputstream*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
