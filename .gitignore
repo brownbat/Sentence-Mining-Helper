@@ -3,7 +3,7 @@
 *.temp
 /tmp
 /temp
-*goutputstream*
+.goutputstream-*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
