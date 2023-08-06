@@ -38,6 +38,7 @@ you have to first take a screenshot of the start/stop/abort buttons sharex adds
 while recording, then save that as sharex_status.bmp in the script directory
 even then the results it produces are so badly tuned as to be unworkable)
 
+``` python
     wait_for_recording():
         while True:
             global region
@@ -65,4 +66,4 @@ even then the results it produces are so badly tuned as to be unworkable)
             time.sleep(0.500)  # Wait for a moment to ensure the recording has fully stopped
 
     test_recording_delay()
-
+```
