@@ -36,13 +36,10 @@ TODO:
 -- this might be impractical because of lower speed
 - automatically tab to anki window to paste after captures
 - adjust pysimplegui visual appearance, try to give it focus
+- ...
 
-
-- detect and adjust system and sharex wait times dynamically
-the following code might work, but it produced unexpectedly huge times when tested
-you have to first take a screenshot of the start/stop/abort buttons sharex adds
-while recording, then save that as sharex_status.bmp in the script directory
-even then the results it produces are so badly tuned as to be unworkable)
+- detect and adjust system and sharex wait times dynamically. The following code might work, but it produced unexpectedly huge times when tested.
+You have to first take a screenshot of the start/stop/abort buttons that sharex adds while recording, then save that as sharex_status.bmp in the script directory. Even then the results it produces are so bad as to be unworkable.
 
 ``` python
     wait_for_recording():
