@@ -25,6 +25,8 @@ TODO:
 - support streaming services, at least netflix, youtube, iqiyi
 - support other local media players
 - support Pact style timestamp selection for clips
+-- See: https://github.com/jzohrab/pact#ankiconnect
+-- See: https://foosoft.net/projects/anki-connect/
 - improve ocr
 - save files locally instead of using the clipboard to reduce volatility
 -- this might be impractical because of lower speed
