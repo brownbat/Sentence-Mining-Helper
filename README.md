@@ -1,10 +1,16 @@
 # Sentence Mining Helper
  Sentence mining functions inspired by Giovanni Smith's Sentence Mining Scripts
 
+See here for more info: 
+https://github.com/GiovanniSmith/SentenceMiningFormAndScripts
+
 See this video to set up ShareX and understand usage:
 https://www.youtube.com/watch?v=P_nV8RPj_wE
 
-The goal is to perform the following functions:
+You will also need to enable clipboard history in Windows settings for this version,
+but you will not need to install AutoHotKey or Ditto.
+
+Big picture, the goal is to perform the following functions:
 1. record audio and take a screenshot
 a. record audio using a prebuilt and hotkeyed sharex command
 b. take screenshot using sharex cropped screenshot region
@@ -32,13 +38,10 @@ TODO:
 -- this might be impractical because of lower speed
 - automatically tab to anki window to paste after captures
 - adjust pysimplegui visual appearance, try to give it focus
+- ...
 
-
-- detect and adjust system and sharex wait times dynamically
-the following code might work, but it produced unexpectedly huge times when tested
-you have to first take a screenshot of the start/stop/abort buttons sharex adds
-while recording, then save that as sharex_status.bmp in the script directory
-even then the results it produces are so badly tuned as to be unworkable)
+- detect and adjust system and sharex wait times dynamically. The following code might work, but it produced unexpectedly huge times when tested.
+You have to first take a screenshot of the start/stop/abort buttons that sharex adds while recording, then save that as sharex_status.bmp in the script directory. Even then the results it produces are so bad as to be unworkable.
 
 ``` python
     wait_for_recording():
